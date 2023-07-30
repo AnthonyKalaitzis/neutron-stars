@@ -1,0 +1,13 @@
+[package]
+name = "neutron-stars"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["crates/eos"]
+
+[dependencies]
+csv = { version = "*" }
+ndarray = { version = "*" }
+eos = { path = "crates/eos" }
+plotly = "0.8.4"
