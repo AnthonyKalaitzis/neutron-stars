@@ -8,6 +8,6 @@ members = ["crates/eos"]
 
 [dependencies]
 csv = { version = "*" }
-ndarray = { version = "*" }
 eos = { path = "crates/eos" }
+nalgebra = "0.32.3"
 plotly = "0.8.4"
